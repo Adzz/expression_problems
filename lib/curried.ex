@@ -79,3 +79,9 @@ end
 %Square{side: 2} |> Shape.apply(Perimeter.calculation).()
 
 # Boom!
+
+# This solution currys the protocols, in that we have
+# one arg per protocol function. This is interesting, I wonder if this allows something
+# more general ?
+# Piping is more elixir-y though.
+# And it's blates not necessary

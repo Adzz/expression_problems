@@ -192,17 +192,15 @@ end
 
 
 
-
-
 # Okay so that works, but there is a lot to not like about it
 # Like a lot.
 # dont like that the Area modules have to be structs. I dont like that you can't enforce
 # the default to be a function you define.
+# I dont like how we have to return a function that we invoke later. Doesnt feel very elixir-y
 # How do we make this idea general
 # Can the shape protocol be implemented for Any ?
 
-
-
+# Can macros save us?
 
 
 
